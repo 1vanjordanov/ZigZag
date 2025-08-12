@@ -1,8 +1,9 @@
 import os
 import shutil
 import sys
-from distutils.command.build_ext import build_ext
-from distutils.core import Distribution, Extension
+from setuptools._distutils.command.build_ext import build_ext
+from setuptools._distutils.core import Distribution, Extension
+
 
 from Cython.Build import cythonize
 import numpy as np
